@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(149, 197, 197);
+}
+
+/* HEADER */
+
+header{
+    background-image: url(/img/WhatsApp-Image-2021-10-13-at-09.40.44.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.conteudo{
+    margin-top: 0px;
+    padding-top: 150px;
+    
+}
+
+
+h1{
+    color: white;
+    padding-left: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-bottom: 0;
+    text-shadow: 5px 3px black;
+}
+
+.conteudo p{
+    
+    padding: 15px;
+    background-color: rgb(175, 173, 173, 0.4 );
+    border-bottom: solid 1px black;
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 0;
+    border-radius: 4px;
+}
+
+.logo{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* MENU */
+
+.conteudo nav{
+    margin-top: 8%;
+    background-color: rgb(0, 0, 0, 0.4);
+    box-sizing: content-box;
+}
+nav{
+    clear: both;
+}
+nav ul{
+    /* text-align: center; */
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+nav li{
+    display: inline-block;
+    padding: 15px;
+    margin-left: 6%;
+    margin-right: auto;
+    
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    
+    
+}
+
+li a:hover{
+    color: red;
+}
+
+/* COMEÇO DO CONTEUDO PRINCIPAL DA PAGINA */
+.dica{
+    
+    float: left;
+    width: 30%;
+    height: 400px;
+    box-sizing: border-box;
+    background-image: url(/img/dd.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    margin-top: 80px;
+    
+}
+/* Começo da seção sobre as promoções */
+.promo{
+
+    float: left;
+    width: 60%;
+    height: 500px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    
+}
+
+.promo h2{
+    text-align: center;
+}
+
+/* PROMOÇÃO SOBRE A RAÇÃO */
+.racao{
+    
+    float: left;
+    margin-left: 10px;
+    
+}
+.racao img{
+    float: left;
+    margin-right: 30px
+}
+
+.racao img{
+    float: left;
+    margin-right: 30px
+}
+
+ /* PROMOÇÃO SOBRE O POTE */
+.pote{
+
+    margin-top: 150px;
+}
+
+.pote img{
+    float: left;
+}
+
+/* PROMOÇÃO SOBRE A BOLINHA */
+.bolinha{
+    clear: both;
+    padding-top: 10%;
+}
+
+.bolinha img{
+    float: left;
+    margin-right: 30px
+}
+
+
+/* SEÇÃO SOBRE OS PRODUTOS EM GERAL */
+.roupa{
+    clear: both;
+    /* background-color: rgb(180, 180, 252); */
+    height: 500px;
+    padding: 50px;
+}
+.roupa h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banho{
+    float: left;
+    width: 30%;
+    border-right: 3px solid black;
+    box-sizing: border-box;
+    height: auto;
+    padding: 15px;
+    
+}
+
+.banho p{
+    text-align: justify;
+}
+
+.hotel{
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+    border-right: 3px solid black;
+    box-sizing: border-box;
+    padding-right: 20px;
+    height: auto;
+    
+}
+
+.veterinario{
+    width:30%;
+    float: left;
+    padding-left: 20px;
+    
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100px;
+    clear: both;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+.end{
+    padding-top: 30px;
+}
+
+.num{
+    margin-top: 0;
+}
